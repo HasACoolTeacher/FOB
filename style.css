@@ -1,0 +1,221 @@
+body {
+	background: rgb(116,0,200);
+	background: linear-gradient(180deg, rgba(116,0,200,1) 0%, rgba(175,22,184,1) 17%, rgba(184,40,162,1) 34%, rgba(156,9,124,1) 50%, rgba(171,40,40,1) 67%, rgba(233,76,105,1) 84%, rgba(255,184,184,1) 100%);
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+header img {
+	width: 5%;
+}
+
+header ul {
+	width: 95%;
+	margin: -76px 0px -80px 0px;
+	padding: 0px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	font-family: Literata;
+}
+
+header ul li {
+	display:block;
+	list-style-type: none;
+	margin-left: 200px;
+	font-size: 35px;
+}
+
+header ul li a {
+	color:black;
+}
+
+.intro {
+	background-image: url(header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	position: relative;
+}
+
+.intro .social {
+	position: absolute;
+	top: 10px;
+	right:0;
+	width: 100%;
+	margin: 0;
+	padding: 0 10% 0 0;
+	text-align: right;
+}
+
+.pics {
+	width: 60px;
+	list-style-type: none;
+	margin-bottom: 42px;
+
+}
+
+.title {
+	margin: 100px 0px 0px 0px;
+	padding: 100px 0px 0px 0px;
+	font-style: italic;
+	font-size: 150px;
+	text-align: center;
+	font-family: Arimo;
+}
+
+.subtext {
+	font-style: italic;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	font-family: Arimo;
+}
+
+.new-album{
+	display: flex;
+	justify-content: center;
+	font-family: Literata;
+}
+
+.new-album div {
+	width: 48%;
+	margin: 2%;
+}
+
+.new-album div img {
+	width: 100%;
+	height: 100%
+}
+
+.new-album .newest{
+	font-size: 45px;
+}
+
+.new-album .promote{
+	font-size: 30px;
+}
+
+.about{
+	font-family: Literata;
+	font-size: 30px;
+	text-align: center;
+}
+.tour {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tour .when{
+	font-family: Arimo;
+	font-size: 100px;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+}
+
+.tour .dates{
+	font-family: Literata;
+	font-size: 30px;
+	width: 50%;
+}
+
+.tour-image {
+	width: 600px;
+	height: 600px;
+	background: url(believers.png) no-repeat center center;
+	background-size: 100%;
+	margin: 2%;
+	position: relative;
+	text-align: center;
+}
+
+.tour img{
+	width:50%;
+}
+
+.tour a{
+	font-size: 45px;
+	font-family: Literata;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.music{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.music h1{
+	font-family: Arimo;
+	font-size: 100px;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+}
+
+.music h2{
+	font-family: Literata;
+	font-size: 30px;
+	text-align: center;
+}
+
+.music img{
+	width: 100%;
+}
+
+.music div{
+	width: 25%;
+}
+
+.music div .scene{
+	height: 360px;
+}
+
+.notifs{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.notifs h2{
+	font-family: Literata;
+	font-size: 35px;
+	text-align: center;
+	width: 100%;
+}
+
+.notifs label{
+	font-family: Literata;
+	font-size: 35px;
+}
+
+form{
+	margin: 0 auto 50px auto;
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.notifs .button{
+	width:20%;
+	background-color: #e0e0e0;
+	border: 1px solid #c0c0c0;
+	font-size: 20px;
+	font-family: Literata;
+}
+
+.notifs .email{
+	width: 60%;
+	font-family: Literata;
+	background-color: #e0e0e0;
+	border: 1px solid #c0c0c0;
+	font-size: 20px;
+}
